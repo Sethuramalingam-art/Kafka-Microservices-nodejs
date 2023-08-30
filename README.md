@@ -43,3 +43,10 @@ frontend -> kafka -> database server
 So it will eliminate no of connections issues, data format issues.
 
 
+PFA-> image
+Kafka works with 
+publiser/subscriber model pub/sub model
+
+
+APP1 is publiser . it publish the data as message/ event to message broker and subscriber can be only listen the message from the message broker
+
