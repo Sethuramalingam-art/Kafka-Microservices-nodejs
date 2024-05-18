@@ -70,3 +70,20 @@ and applications so they can integrate with Kafka. For example, a connector to a
 However, in practice, you typically don't need to implement your own connectors because the Kafka community already provides hundreds of ready-to-use connectors.
 Where to go from here
 
+
+
+https://www.geeksforgeeks.org/what-is-apache-zookeeper/ => zoo keeper 
+is a distributed, open-source coordination service for distributed applications. 
+It exposes a simple set of primitives to implement higher-level services for synchronization, configuration maintenance, and group and naming. 
+
+In a distributed system, there are multiple nodes or machines that need to communicate with each other and coordinate their actions.
+ZooKeeper provides a way to ensure that these nodes are aware of each other and can coordinate their actions. 
+It does this by maintaining a hierarchical tree of data nodes called “Znodes“, which can be used to store and retrieve data and maintain state information. ZooKeeper provides a set of primitives, such as locks, barriers, and queues, that can be used to coordinate the actions of nodes in a distributed system. It also provides features such as leader election, failover, and recovery, which can help ensure that the system is resilient to failures. 
+ZooKeeper is widely used in distributed systems such as Hadoop, Kafka, and HBase, and it has become an essential component of many distributed applications.
+
+What is distributed system?
+Multiple computer systems working on a single problem.
+It is a network that consists of autonomous computers that are connected using distributed middleware.
+Key Features: Concurrent, resource sharing, independent, global, greater fault tolerance, and price/performance ratio is much better.
+Key Goals: Transparency, Reliability, Performance, Scalability.
+Challenges: Security, Fault, Coordination, and resource sharing.
